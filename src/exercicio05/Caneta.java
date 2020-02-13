@@ -13,6 +13,7 @@ public class Caneta implements Escrita {
     @Override
     public void escrever() {
         System.out.println("Escrevendo com: " + getEscreveCom());
+        System.out.println("Material usado: " + getEhFeitoDe());
 
     }
 
